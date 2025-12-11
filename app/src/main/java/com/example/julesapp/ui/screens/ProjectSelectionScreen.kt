@@ -9,7 +9,6 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.example.julesapp.api.ApiKeyRequest
 import com.example.julesapp.api.CreateProjectRequest
 import com.example.julesapp.api.JulesApiService
 import com.example.julesapp.api.Project
