@@ -22,9 +22,6 @@ data class StatusResponse(val status: String, val progress: Float, val logs: Lis
 
 // API Interface
 interface JulesApiService {
-    @POST("/api/key")
-    suspend fun setApiKey(@Body request: ApiKeyRequest): Result<Unit>
-
     @GET("/projects")
     suspend fun getProjects(): List<Project>
 
