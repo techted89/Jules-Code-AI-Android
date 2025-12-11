@@ -11,7 +11,6 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.julesapp.api.ApiKeyRequest
 import com.example.julesapp.api.Project
 import com.example.julesapp.api.RetrofitInstance
 import com.example.julesapp.ui.screens.ChatScreen
